@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(3)
     },
     count: {
-        fontSize: "30px",
+        fontSize: "3vh",
         fontWeight: 'bolder'
     }
 }));
@@ -59,7 +59,9 @@ const HomeStats = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                                     separator=","
                                 /></span>
                             <br />
-                            <span>Infected</span>
+                            <span style={{
+                                color: '#ff453a',
+                            }}>Infected</span>
                         </Paper>
                     </Grid>
                     <Grid item xs={6}>
@@ -72,7 +74,9 @@ const HomeStats = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                                     separator=","
                                 /></span>
                             <br />
-                            <span>Deaths</span>
+                            <span style={{
+                                color: '#ff453a',
+                            }}>Deaths</span>
                         </Paper>
                     </Grid>
                     <Grid item xs={12}>
@@ -85,15 +89,15 @@ const HomeStats = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
                                     separator=","
                                 /></span>
                             <br />
-                            <span>Recovered</span>
+                            <span style={{
+                                color: '#ff453a',
+                            }}>Recovered</span>
                         </Paper>
                     </Grid>
                     <Grid item xs={12}>
                         <Paper elevation={3} className={classes.paper}>
-                            <span className={classes.count}>{new Date(lastUpdate).toDateString()}
+                            <span className={classes.count}>Last updated on {new Date(lastUpdate).toDateString()}
                             </span>
-                            <br />
-                            <span>Last updated</span>
                         </Paper>
                     </Grid>
                 </Grid>

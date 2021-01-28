@@ -24,11 +24,11 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(2),
         textAlign: 'center'
     },
+    title: {
+        fontSize: "5vh",
+    },
     message: {
         fontSize: "20px",
-    },
-    logotext: {
-        fontSize: "50px",
     }
 }));
 
@@ -49,7 +49,7 @@ const HomeCard = () => {
             <Paper elevation={3} className={classes.logo}>
                 <Grid container wrap="nowrap" spacing={12}>
                     <Grid item xs>
-                        <Typography className={classes.logotext}>Information</Typography>
+                        <Typography className={classes.title}>Information</Typography>
                     </Grid>
                 </Grid>
             </Paper>

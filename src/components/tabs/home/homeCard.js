@@ -24,15 +24,15 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(2),
         textAlign: 'center'
     },
+    title: {
+        fontSize: "5vh",
+    },
     message: {
         fontSize: "20px",
-    },
-    logotext: {
-        fontSize: "50px",
     }
 }));
 
-const title = `Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.`;
+const overview = `Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.`;
 const paragraph = `Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness 
 and recover without requiring special treatment. Older people, and those with underlying medical problems like cardiovascular 
 disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.`
@@ -45,14 +45,14 @@ const HomeCard = () => {
             <Paper elevation={3} className={classes.logo}>
                 <Grid container wrap="nowrap" spacing={12}>
                     <Grid item xs>
-                        <Typography className={classes.logotext}>CovidTracker</Typography>
+                        <Typography className={classes.title}>CovidTracker</Typography>
                     </Grid>
                 </Grid>
             </Paper>
             <Paper elevation={2} className={classes.paper}>
                 <Grid container wrap="nowrap" spacing={12}>
                     <Grid item xs>
-                        <Typography className={classes.message}>{title}</Typography>
+                        <Typography className={classes.message}>{overview}</Typography>
                     </Grid>
                 </Grid>
             </Paper>
