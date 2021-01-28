@@ -8,35 +8,35 @@ import Button from '@material-ui/core/Button';
 import './header.css';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
+    root: {
+        flexGrow: 1,
+    },
+    menuButton: {
+        marginRight: theme.spacing(2),
+    },
+    title: {
+        flexGrow: 1,
+    },
 }));
 
 const Header = () => {
-  const classes = useStyles();
+    const classes = useStyles();
 
-  return (
-    <div className={classes.root}>
-      <AppBar position="static" color="default">
-        <Toolbar>
-          <Typography variant="h6" className={classes.title}>
+    return (
+        <div className={ classes.root }>
+            <AppBar position="static" color="default">
+                <Toolbar>
+                    <Typography variant="h6" className={ classes.title }>
             CovidTracker by Sanjay Sunil
-          </Typography>
-          {/* }
+                    </Typography>
+                    {/* }
           <Button color="inherit">Login</Button>
           <Button color="inherit">GitHub</Button>
           {*/}
-        </Toolbar>
-      </AppBar>
-    </div>
-  );
+                </Toolbar>
+            </AppBar>
+        </div>
+    );
 };
 
 export default Header;

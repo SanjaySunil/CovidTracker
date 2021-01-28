@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import HomeCard from "./homeCard";
-import HomeStats from "./homeStatistics";
+import React, { Component } from 'react';
+import HomeCard from './homeCard';
+import HomeStats from './homeStatistics';
 
-import fetchData from "../../../api";
+import fetchData from '../../../api';
 class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
             data: {},
-            country: "",
+            country: '',
         };
     }
     async componentDidMount() {
@@ -28,7 +28,7 @@ class Home extends Component {
         return (
             <div>
                 <HomeCard />
-                <HomeStats data={data} />
+                <HomeStats data={ data } />
             </div>
         );
     }
