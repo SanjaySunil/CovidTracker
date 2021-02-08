@@ -1,4 +1,4 @@
-import {createMuiTheme} from '@material-ui/core/styles';
+import { createMuiTheme } from '@material-ui/core/styles';
 import {
   DARK_PRIMARY,
   DARK_SECONDARY,
@@ -8,9 +8,9 @@ import {
 const theme = createMuiTheme({
   palette: {
     type: 'dark',
-    primary: {main: DARK_PRIMARY},
-    secondary: {main: DARK_SECONDARY},
-    success: {main: DARK_SUCCESS},
+    primary: { main: DARK_PRIMARY },
+    secondary: { main: DARK_SECONDARY },
+    success: { main: DARK_SUCCESS },
   },
   overrides: {
     MuiTooltip: {

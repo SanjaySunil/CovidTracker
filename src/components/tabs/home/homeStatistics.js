@@ -1,5 +1,5 @@
 import React from 'react';
-import {makeStyles} from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import CountUp from 'react-countup';
@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const HomeStats = ({data: {confirmed, recovered, deaths, lastUpdate}}) => {
+const HomeStats = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   const classes = useStyles();
 
   if (!confirmed) {
