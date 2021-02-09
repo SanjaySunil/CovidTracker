@@ -66,6 +66,19 @@ npm start
 See the [open issues](https://github.com/SanjaySunil/covidtracker/issues) for a list of proposed features (and known issues).
 <br/>
 
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/Feature`)
+3. Commit your Changes (`git commit -m 'Added a new Feature'`)
+4. Push to the Branch (`git push origin feature/Feature`)
+5. Open a Pull Request
+   <br/>
+
 ## License
 
 Copyright © 2020 Sanjay Sunil (sanjaysunil@protonmail.com)
