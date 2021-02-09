@@ -19,11 +19,11 @@
 <!-- Preview -->
 <p align="center">
   <a href="">
-    <img src="./images/preview.png" width="100%"/>
+    <img src="./assets/images/preview.png" width="100%"/>
   </a>
   <!-- Drop Shadow -->
   <a href="">
-    <img src="./images/dropShadow.png" width="100%"/>
+    <img src="./assets/images/dropShadow.png" width="100%"/>
   </a>
 </p>
 <br/>
