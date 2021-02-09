@@ -77,7 +77,8 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Added a new Feature'`)
 4. Push to the Branch (`git push origin feature/Feature`)
 5. Open a Pull Request
-   <br/>
+
+<br/>
 
 ## License
 
