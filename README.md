@@ -45,10 +45,6 @@
 git clone https://github.com/sanjaysunil/covidtracker
 ```
 
-<!--
-> ⚠️ **NOTE**: Write a quick warning here if necessary.
--->
-
 2. Install node_modules
 
 ```sh
