@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-import HomeCard from './homeCard';
-import HomeStats from './homeStatistics';
-import fetchData from '../../../api';
+import HomeCard from './Card/HomeCard';
+import HomeStats from './Stats/HomeStats';
+import fetchData from '../../../API';
 class Home extends Component {
   constructor(props) {
     super(props);

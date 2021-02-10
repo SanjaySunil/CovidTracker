@@ -3,7 +3,7 @@ import {
   DARK_PRIMARY,
   DARK_SECONDARY,
   DARK_SUCCESS,
-} from '../resources/colors';
+} from '../Resources/Colors';
 
 const theme = createMuiTheme({
   palette: {

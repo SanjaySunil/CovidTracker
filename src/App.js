@@ -1,7 +1,7 @@
 import React from 'react';
-import theme from './theme/theme';
+import theme from './Theme/Theme';
 
-import { Header, Navigation } from './components';
+import { Header, Navigation } from './Components';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import { Paper } from '@material-ui/core';
 

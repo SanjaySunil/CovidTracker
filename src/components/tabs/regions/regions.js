@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import RegionCard from './regionCard';
-import RegionPicker from './regionPicker';
-import CardData from './regionStatistics';
+import RegionCard from './Card/RegionCard';
+import RegionPicker from './Picker/RegionPicker';
+import CardData from './Stats/RegionStats';
 
-import fetchData from '../../../api';
+import fetchData from '../../../API';
 
 class Regions extends Component {
   constructor(props) {

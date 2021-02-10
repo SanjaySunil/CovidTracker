@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import InfoCard from './infoCard';
+import InfoCard from './Card/InfoCard';
 
 class Info extends Component {
   render() {
