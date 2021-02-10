@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
+import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 
 import CountUp from 'react-countup';
@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const HomeStats = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
+const CardData = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   const classes = useStyles();
 
   if (!confirmed) {
@@ -111,5 +111,4 @@ const HomeStats = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
     </div>
   );
 };
-
-export default HomeStats;
+export default CardData;

@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 
-import HomeCard from './homeCard';
-import HomeStats from './homeStatistics';
+import RegionCard from './regionCard';
+import RegionPicker from './regionPicker';
+import CardData from './regionStatistics';
+
 import fetchData from '../../../api';
-class Home extends Component {
+
+class Regions extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -19,19 +22,19 @@ class Home extends Component {
 
   handleCountryChange = async (country) => {
     const data = await fetchData(country);
-    // console.log(data);
     this.setState({ data, country: country });
   };
 
   render() {
-    const { data, country } = this.state;
+    const { data } = this.state;
     return (
       <div>
-        <HomeCard />
-        <HomeStats data={data} />
+        <RegionCard />
+        <RegionPicker handleCountryChange={this.handleCountryChange} />
+        <CardData data={data} />
       </div>
     );
   }
 }
 
-export default Home;
+export default Regions;
