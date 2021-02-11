@@ -1,3 +1,9 @@
+/**
+ * @file Home.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 import React, { Component } from 'react';
 
 import HomeCard from './Card/HomeCard';

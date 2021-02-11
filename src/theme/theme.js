@@ -1,3 +1,9 @@
+/**
+ * @file Theme.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 import { createMuiTheme } from '@material-ui/core/styles';
 import {
   DARK_PRIMARY,

@@ -1,3 +1,9 @@
+/**
+ * @file InfoCard.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 import React from 'react';
 
 import { makeStyles } from '@material-ui/core/styles';

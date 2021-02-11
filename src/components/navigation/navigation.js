@@ -1,3 +1,9 @@
+/**
+ * @file Navigation.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import SwipeableViews from 'react-swipeable-views';

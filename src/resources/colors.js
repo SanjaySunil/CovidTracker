@@ -1,3 +1,9 @@
+/**
+ * @file Colors.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 module.exports = {
   DARK_PRIMARY: '#ff453a',
   DARK_SECONDARY: '#333333',

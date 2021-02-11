@@ -1,3 +1,9 @@
+/**
+ * @file RegionPicker.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 import React, { useState, useEffect } from 'react';
 
 import { NativeSelect, FormControl } from '@material-ui/core';

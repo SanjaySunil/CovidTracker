@@ -1,3 +1,9 @@
+/**
+ * @file index.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 import axios from 'axios';
 
 const url = ' https://covid19.mathdro.id/api';

@@ -1,3 +1,9 @@
+/**
+ * @file App.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 import React from 'react';
 import theme from './Theme/Theme';
 
