@@ -9,9 +9,9 @@
   <p align="center">
     An awesome Covid Tracking application with real statistics on Covid19!
     <br />
-    <a href="https://github.com/SanjaySunil/CovidTracker/issues/new">Report Bug</a>
+    <a href="https://github.com/SanjaySunil/CovidTracker/issues/new?assignees=&labels=Bug&template=bug_report.md&title=%5BBUG%5D">Report Bug</a>
     ·
-    <a href="https://github.com/SanjaySunil/CovidTracker/issues/new">Request Feature</a>
+    <a href="https://github.com/SanjaySunil/CovidTracker/issues/new?assignees=&labels=Suggestions&template=suggestions.md&title=%5BSUGGESTION%5D">Request Feature</a>
   </p>
 </h1>
 <br/><br/>
