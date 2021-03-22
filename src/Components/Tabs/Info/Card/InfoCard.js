@@ -55,6 +55,18 @@ const useStyles = makeStyles((theme) => ({
   message: {
     fontSize: '20px',
   },
+  link: {
+    '&': {
+      fontSize: '20px',
+      color: 'grey',
+      textDecoration: 'none',
+      transition: '0.25s',
+    },
+    '&:hover': {
+      color: '#fff',
+      transition: '0.25s',
+    },
+  },
 }));
 
 const HomeCard = () => {
@@ -73,20 +85,17 @@ const HomeCard = () => {
         <Grid container wrap="nowrap" spacing={12}>
           <Grid item xs>
             <Typography className={classes.message}>{para1}</Typography>
-          </Grid>
-        </Grid>
-      </Paper>
-      <Paper elevation={2} className={classes.paper}>
-        <Grid container wrap="nowrap" spacing={12}>
-          <Grid item xs>
+            <br />
             <Typography className={classes.message}>{para2}</Typography>
+            <br />
+            <Typography className={classes.message}>{para3}</Typography>
           </Grid>
         </Grid>
       </Paper>
       <Paper elevation={2} className={classes.paper}>
         <Grid container wrap="nowrap" spacing={12}>
           <Grid item xs>
-            <Typography className={classes.message}>{para3}</Typography>
+            <Typography align="center"><a className={classes.link} href="https://www.who.int/health-topics/coronavirus#tab=tab_1" rel="noreferrer" target="_blank">More information on the WHO website</a></Typography>
           </Grid>
         </Grid>
       </Paper>
