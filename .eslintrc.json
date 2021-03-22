@@ -1,0 +1,27 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "google"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "require-jsdoc": 0,
+    "object-curly-spacing": 0,
+    "no-invalid-this": 0,
+    "react/prop-types": 0,
+    "no-unused-vars": 0
+  }
+}
