@@ -7,7 +7,7 @@
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^13.0.2",
+    "@testing-library/user-event": "^13.0.6",
     "axios": "^0.21.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
