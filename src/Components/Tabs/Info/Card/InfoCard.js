@@ -51,6 +51,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     fontSize: '5vh',
+    fontWeight: 'bold',
   },
   message: {
     fontSize: '20px',
@@ -58,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
   link: {
     '&': {
       fontSize: '20px',
-      color: 'grey',
+      color: '#9e9e9e',
       textDecoration: 'none',
       transition: '0.25s',
     },

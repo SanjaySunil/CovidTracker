@@ -32,6 +32,18 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '3vh',
     fontWeight: 'bolder',
   },
+  lastUpdated: {
+    '&': {
+      fontSize: '20px',
+      color: '#9e9e9e',
+      textDecoration: 'none',
+      transition: '0.25s',
+    },
+    '&:hover': {
+      color: '#fff',
+      transition: '0.25s',
+    },
+  },
 }));
 
 const CardData = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
@@ -107,7 +119,7 @@ const CardData = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           </Grid>
           <Grid item xs={12}>
             <Paper elevation={3} className={classes.paper}>
-              <span className={classes.count}>
+              <span className={classes.lastUpdated}>
                 Last updated on {new Date(lastUpdate).toDateString()}
               </span>
             </Paper>

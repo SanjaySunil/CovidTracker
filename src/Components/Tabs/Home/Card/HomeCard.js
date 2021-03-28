@@ -33,6 +33,7 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     fontSize: '5vh',
+    fontWeight: 'bold',
   },
   message: {
     fontSize: '20px',

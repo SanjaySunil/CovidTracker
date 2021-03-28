@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
   lastUpdated: {
     '&': {
       fontSize: '20px',
-      color: 'grey',
+      color: '#9e9e9e',
       textDecoration: 'none',
       transition: '0.25s',
     },
