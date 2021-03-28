@@ -37,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
   },
   message: {
     fontSize: '20px',
+    color: '#eeeeee',
   },
 }));
 
