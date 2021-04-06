@@ -36,7 +36,7 @@ const Header = () => {
           <Typography variant="h6" className={classes.title}>
             CovidTracker by Sanjay Sunil
           </Typography>
-          <a href="https://github.com/sanjaysunil/covidtracker" rel="noreferrer" target="_blank" className={classes.button}>
+          <a href="https://github.com/sanjaysunil/web-bluetooth-api" rel="noreferrer" target="_blank" className={classes.button}>
             <IconButton aria-label="GitHub" color="inherit">
               <GitHubIcon />
             </IconButton>
