@@ -32,7 +32,7 @@
 
 ## What's CovidTracker?
 
-<a href="https://github.com/sanjaysunil/covidtracker">CovidTracker</a> is a React application that provides you with worldwide data including deaths, cases and recovered cases.
+<a href="https://github.com/sanjaysunil/covidtracker">CovidTracker</a> is a React web application that provides you with worldwide data including deaths, cases and recovered cases.
 <br/>
 
 <!-- Installation -->
