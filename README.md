@@ -56,7 +56,6 @@ npm install
 ```sh
 npm start
 ```
-
 <br/>
 
 <!-- ROADMAP -->
@@ -64,7 +63,6 @@ npm start
 ## Roadmap
 
 See the [open issues](https://github.com/SanjaySunil/covidtracker/issues) for a list of proposed features (and known issues).
-
 <br/>
 
 <!-- CONTRIBUTING -->
@@ -78,7 +76,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Added a new Feature'`)
 4. Push to the Branch (`git push origin feature/Feature`)
 5. Open a Pull Request
-
 <br/>
 
 ## License
