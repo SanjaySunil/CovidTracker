@@ -64,6 +64,7 @@ npm start
 ## Roadmap
 
 See the [open issues](https://github.com/SanjaySunil/covidtracker/issues) for a list of proposed features (and known issues).
+
 <br/>
 
 <!-- CONTRIBUTING -->
