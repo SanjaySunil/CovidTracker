@@ -1,6 +1,7 @@
 {
   "name": "covid-tracker",
   "version": "0.1.0",
+  "homepage": "http://sanjaysunil.github.io/covidtracker",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -24,7 +25,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "./node_modules/.bin/eslint src",
-    "lint-fixup": "./node_modules/.bin/eslint src --ext .js,.jsx --fix"
+    "lint-fixup": "./node_modules/.bin/eslint src --ext .js,.jsx --fix",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
