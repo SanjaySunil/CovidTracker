@@ -81,6 +81,6 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Copyright © 2021 Sanjay Sunil (sanjaysunil@protonmail.com)
+Copyright © 2022 Sanjay Sunil (sanjaysunil@protonmail.com)
 
 Distributed under the MIT License. See `LICENSE` for more information.
